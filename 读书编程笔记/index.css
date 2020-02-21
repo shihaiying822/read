@@ -1,0 +1,587 @@
+/*首页通用样式开始*/
+body{
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    width: 100%;
+}
+
+.container span{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.section1:nth-child(even){
+    background:#f8f9fa;
+}
+
+.content .section .main .title{
+    text-align: center;
+    line-height: 1.5;
+    padding: 15px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+/*首页通用样式结束*/
+
+
+/*头部开始*/
+.header{
+    height: 50px;
+    top: 0;
+    background-color: #6959CD;
+    position: fixed;
+}
+
+.header .container{
+    margin: 0 auto;
+}
+
+/*左边区域*/
+.header .read{
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    padding-top: 15px;
+    margin-left: 190px;
+    margin-right: 15px;
+}
+
+/*中间区域*/
+.search .right-menu-list{
+    padding: 15px 15px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.search .right-menu-list li{
+    margin-right:30px;
+}
+
+/*重置文本框*/
+input{
+    border:none;
+    outline:none;
+    outline-offset: 0;
+}
+
+.search .right{
+    margin-left: -15px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.search input{
+    padding: 6px 14px;
+    line-height: 20px;
+    margin-top: 9px;
+    color: white;
+    background: rgba(255,255,255,0.2);
+}
+
+.search .btn{
+    outline:none;
+    outline-offset: 0;
+    background-color: #605CA8;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 14px;
+    right:-8px;
+}
+
+.search .btn span{
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+}
+/*右边区域*/
+.header .denglu{
+    height: 50px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 15px;
+    margin-left: 526px;
+    margin-right: 195px;
+}
+/*头部结束*/
+
+/*页头开始*/
+.nav{
+    box-sizing: border-box;
+    background: url(img/nav-bg.jpg ) no-repeat center;
+    background-size: cover;
+    height: 355px;
+}
+
+.nav{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:0 auto;
+    color: whitesmoke;
+    padding-top: 160px;
+}
+
+.nav h1{
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.nav h3{
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+/*页头结束*/
+
+/*导航栏开始*/
+.banner{
+    height: 125px;
+    background-color: #f5f4f9;
+    box-sizing: border-box;
+}
+
+.banner .banner-list ul{
+    margin: 0 100px;
+}
+
+.banner .banner-list{
+    margin: 0 100px;
+}
+
+.banner .banner-list ul li{
+    float: left;
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 110px;
+    margin-left: 110px;
+}
+
+.banner .banner-list ul li a{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+    font-size: 35px;
+}
+
+.banner .banner-list ul li span{
+    margin-top: 5px;
+}
+
+.banner .banner-list .first{
+    background-color: #4493f7;
+}
+
+.banner .banner-list .second{
+    background-color: #fd7a49;
+}
+
+.banner .banner-list .third{
+    background-color: #6f68df;
+}
+
+.banner .banner-list .fouth{
+    background-color: #7fd02b;
+}
+
+.banner .banner-list ul li span{
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 14px;
+}
+/*导航栏结束*/
+
+/*网站介绍开始*/
+/*标题*/
+.content .section .main .title .wang{
+    color: #ffa801;
+}
+
+.content .section{
+    background-color: #f8f9fa;
+}
+/*上半部分*/
+.content .section .main .top{
+    color:#777;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-bottom: 25px;
+    margin:0 200px;
+}
+
+.content .section .main .top p .stuty{
+    color: red;
+    font-weight: 600;
+}
+
+.content .section .main .top p .quxian{
+    font-weight: 600;
+}
+
+.content .section .main .top p a{
+    display: inline-block;
+    color: #3c8dbc;
+}
+
+/*中间部分*/
+.content .section .main .middle{
+    margin: 0 200px;
+    padding-bottom: 15px;
+}
+
+.content .section .main .middle ul li{
+    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    display: block;
+    width: 325px;
+}
+
+.content .section .main .middle ul li a{
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.content .section .main .middle ul li .one{
+    color: #ff4f81;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.content .section .main .middle ul li div{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.content .section .main .middle ul li p{
+    height: 42px;
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.content .section .main .middle ul li .two{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #00aeff;
+}
+
+.content .section .main .middle ul li .three{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #2dde98;
+}
+
+.content .section .main .middle ul li .four{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #fe5000;
+}
+
+.content .section .main .middle ul li .five{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #FDC251;
+}
+
+.content .section .main .middle ul li .six{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #6F68DF;
+}
+
+/*下半部分*/
+.content .section .main .bottom{
+    margin:0 200px;
+    padding-bottom: 30px;
+}
+
+.content .section .main .bottom p{
+    color: #777;
+}
+/*网站介绍结束*/
+
+/*站长介绍开始*/
+.content .pp{
+    background: #fff;
+}
+/*标题*/
+.content .section .main .title .z{
+    color: #6F68DF;
+}
+/*左半部分*/
+.content .section .main .jie{
+    padding-bottom: 30px;
+    height: 100%;
+    line-height: 1.5;
+    margin: 0 370px;
+}
+
+.content .section .main .jie .zzl img{
+    width:350px;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*右半部分*/
+.content .section .main .jie .zzr{
+    width: 350px;
+    font-weight: 400;
+}
+
+.content .section .main .jie .zzr h4{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #212529;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.content .section .main .jie .zzr p{
+    color: #777;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.content .section .main .jie .zzr a{
+    color: #3c8dbc;
+}
+
+.content .section .main .jie .zzr ul{
+    margin-top: 20px;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.content .section .main .jie .zzr ul li{
+    display: inline-block;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-right: 200px;
+}
+
+.content .section .main .jie .zzr ul li .dui{
+    color: #FC427B;
+    font: 14px/1 FontAwesome;
+    font-weight: bold;
+}
+
+.content .section .main .jie .zzr ul li span{
+    margin-left: 5px;
+    color: #777;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+/*站长介绍结束*/
+
+/*热门课程推荐开始*/
+/*标题*/
+.content .section .main .title .k{
+    color: #ff4f81;
+}
+/*图片*/
+
+.content .section .main .tpn{
+    padding-bottom: 30px;
+    margin: 0 200px;
+}
+
+.content .section .main .tpn .z1{
+    position: relative;
+    margin-right: 19px;
+}
+
+.content .section .main .tpn img{
+    width: 260px;
+    height: 197px;
+    vertical-align: middle;
+    box-shadow: 0 0 1px 1px #ccc;
+    border-radius: 10px;
+}
+
+.content .section .main .tpn .f1{
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    font-size: 14px;
+}
+
+.content .section .main .tpn .f1 span{
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    background-color: #f39c12;
+    border-radius: .25em;
+}
+
+.content .section .main .tpn .f2{
+    position: absolute;
+    left: 216px;
+    top: 7px;
+    font-size: 14px;
+}
+
+.content .section .main .tpn .f2 span{
+    background-color: #f39c12;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    border-radius: .25em;
+}
+
+.content .section .main .tpn a{
+    text-align: center;
+    margin-top: 5px;
+    display: inline-block;
+    color: #F8626E;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.content .section .main .tpn a:hover{
+    color: #72afd2;
+}
+
+.content .section .main .tpn .f3, .content .section .main .tpn .f4{
+    margin-left: 80px;
+}
+
+.content .section .main .tpn .f4 a{
+    font-size:12px;
+    padding-right: 2px;
+    color: #777;
+}
+
+/*热门课程推荐结束*/
+
+/*联系我们开始*/
+.content .section .main .title .l{
+    color: #00aeff;
+}
+
+.content .bb{
+    background: #fff;
+}
+
+.content .section .main .wm{
+    padding-bottom: 50px;
+    margin: 0 200px;
+}
+
+/*左边区域*/
+.content .section .main .wm .yx{
+    margin-left: 170px;
+}
+
+.content .section .main .wm .f5{
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    background: #ffa801;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+}
+
+.content .section .main .wm .zb1{
+    margin-left: 70px;
+    width: 150px;
+    font-weight: 600;
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+
+.content .section .main .wm .zb1 span{
+    font-size: 16px;
+}
+
+.content .section .main .wm .yx .zb2 a{
+    padding-left: 15px;
+    color: #3c8dbc;
+    font-weight: 400;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+/*右边区域*/
+.content .section .main .wm .jlq{
+    margin-left: 320px;
+}
+
+.content .section .main .wm .jlq .yb2 span{
+    padding-left: 15px;
+    color: #333;
+    font-weight: 400;
+    font-size: 13px;
+}
+/*联系我们结束*/
+
+/*页脚开始*/
+.footer{
+    background-color: #eed;
+}
+
+.footer div{
+    padding: 10px 0;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+}
+/*页脚结束*/
